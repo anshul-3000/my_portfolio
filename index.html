@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anshul Chaudhary's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Poppins:wght@300;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+
+<body>
+
+<!-- HEADER -->
+<header class="header">
+    <a href="#" class="logo">SDE Intern</a>
+    
+    <nav class="navbar">
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="social-links">
+        <a href="https://leetcode.com/u/anshul2003/" target="_blank" class="btn">
+            <i class="fas fa-code"></i> LeetCode
+        </a>
+        <a href="https://github.com/anshul-3000" target="_blank" class="btn">
+            <i class="fab fa-github"></i> GitHub
+        </a>
+        <a href="https://www.linkedin.com/in/anshul-chaudhary-b571b5251/" target="_blank" class="btn">
+            <i class="fab fa-linkedin"></i> LinkedIn
+        </a>
+    </div>
+
+    <button id="darkModeToggle" class="btn">🌙 Dark Mode</button>
+</header>
+
+<!-- HERO SECTION -->
+<section class="hero fade-in" id="home">
+    <div class="hero-content">
+        <h1>Hi, I'm <span>Anshul Chaudhary</span><br> <span class="typing-text"></span></h1>
+        <p>
+            Machine Learning Engineer | Full-Stack Developer <br>
+            Expert in AI, ML, NLP, Python, C++, DSA (500+ problems solved) <br>
+            Web Dev with HTML, CSS, JavaScript, React <br>
+            Built AI-powered apps, detection systems & full-stack projects 🚀
+        </p> 
+        <a href="Anshulchaudhary1.pdf" download class="btn resume-btn">Download Resume</a>
+    </div>
+    <div class="hero-image">
+        <img src="photo 2.jpg" alt="Profile" loading="lazy" class="profile-photo">
+    </div>
+</section>
+</section>
+
+<!-- ABOUT 
+ <!-- ABOUT SECTION -->
+<section class="about fade-in" id="about">
+    <div class="about-container">
+        <div class="about-image">
+            <img src="assets/about-me.png" alt="Anshul Chaudhary" loading="lazy">
+        </div>
+        <div class="about-content">
+            <h2 class="section-title">Who am I? 👩‍💻</h2>
+            <p>
+                Hi, I'm <span class="highlight">Anshul Chaudhary</span>, a Machine Learning Engineer & Full-Stack Developer  
+                passionate about Artificial Intelligence, NLP, and Web Technologies.  
+                I specialize in building AI-driven applications, solving complex coding challenges,  
+                and creating full-stack solutions.
+            </p>
+
+            <div class="about-info">
+
+                <div class="about-box">
+                    <h3>🎓 Education</h3>
+                    <ul>
+                    <li><p><strong>B.Tech (CSE) - 8.2 CGPA</strong><br>DDU Gorakhpur University (2021 - 2025) | Gorakhpur, UP</p></li>
+                    <li><p><strong>Higher Secondary</strong><br>Urmil Unique Central Academy | Gorakhpur, UP | 2021</p></li>
+                    <li><p><strong>Secondary</strong><br>Stepping Stone Children Academy | Gorakhpur, UP | 2019</p></li>
+                    </ul>
+                </div>
+                
+
+                <div class="about-box">
+                    <h3>🏆 Achievements</h3>
+                    <ul>
+                        <li>Solved 500+ DSA problems</li>
+                        <li>Published Research Paper at NICEDT 2025 on real-time drowsiness detection using Haar Cascade, OpenCV & Pygame</li>
+                    </ul>
+                </div>
+            </div>
+
+            <a href="#projects" class="btn">Explore My Projects 🚀</a>
+        </div>
+    </div>
+</section>
+
+
+<!-- SKILLS SECTION -->
+<section class="skills fade-in" id="skills">
+    <h2 class="section-title">Technical Skills ⚡</h2>
+    <div class="skills-container">
+        <div class="skill"><i class="fab fa-python"></i> Python & C++</div>
+        <div class="skill"><i class="fas fa-brain"></i> Machine Learning</div>
+        <div class="skill"><i class="fas fa-language"></i> NLP & Transformers</div>
+        <div class="skill"><i class="fas fa-robot"></i> Deep Learning</div>
+        <div class="skill"><i class="fas fa-database"></i> SQL & Flask</div>
+        <div class="skill"><i class="fab fa-js"></i> JavaScript & React</div>
+        <div class="skill"><i class="fas fa-code"></i> Data Structures & Algorithms</div>
+        <div class="skill"><i class="fas fa-cloud"></i> Cloud & MLOps</div>
+    </div>
+</section>
+
+<!-- PROJECTS SECTION -->
+<section id="projects" class="projects fade-in">
+    <h2 class="section-title">My Projects 🚀</h2>
+
+    <div class="project-tabs">
+        <button onclick="openPage('ai-ml.html')">🤖 AI/ML</button>
+        <button onclick="openPage('full-stack.html')">💻 Full-Stack</button>
+        <button onclick="openPage('data-analytics.html')">📊 Data Analytics</button>
+    </div>
+</section>
+
+<script>
+    function openPage(page) {
+        window.location.href = page;
+    }
+</script>
+
+
+<!-- EXPERIENCE SECTION -->
+<section id="experience">
+    <div class="container">
+        <h2>💼 Experience</h2>
+    
+        <div class="experience-item">
+            <h3>🔹 SDE Intern - ITJobxs.com</h3>
+            <p>📅 Feb 2025 – Present | 🌍 Remote</p>
+            <p>💻 Tech Stack: HTML, CSS, JavaScript, PHP, Bootstrap, MySQL</p>
+            <ul>
+                <li>🎨 Developed a fully responsive webpage for Desi QnA.</li>
+                <li>🛡️ Engineered bot detection and fake post removal mechanisms.</li>
+                <li>🔒 Integrated Google Recaptcha for enhanced security.</li>
+            </ul>
+        </div>
+
+        <div class="experience-item">
+            <h3>🔹 AI/ML Intern - NIELIT</h3>
+            <p>📅 Aug 2024 – Jan 2025 | 🌍 Gorakhpur</p>
+            <ul>
+                <li>🛠️Trained 50+ students on TensorFlow, Keras, Pandas,and NumPy for ML model development.</li>
+                <li>📊 Developed and optimized 2+ models, improving accuracy by 15% through hyperparameter tuning.</li>
+                <li>🚀 Guided data preprocessing and model evaluation, boosting performance by 20%.</li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<!-- CONTACT SECTION -->
+<section class="contact" id="contact">
+    <h2>Contact Me</h2>
+    <p>Feel free to reach out to me via email or connect on social media.</p>
+    <div class="social-links">
+        <a href="mailto:anshulchaudhary3000@gmail.com" target="_blank"><i class="fas fa-envelope"></i> Email</a>
+        <a href="tel:+91 7753805852" target="_blank"><i class="fas fa-phone"></i> +91 7753805852</a>
+    </div>
+</section>
+
+<script src="script.js"></script>
+
+</body>
+</html>
